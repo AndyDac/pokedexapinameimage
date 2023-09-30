@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7a69b; /* Vermelho claro */
+    font-family: 'Arial', sans-serif;
+}
+
+.pokeball-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pokeball-center {
+    position: relative;
+    background: url('pokeball.png') no-repeat center center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    opacity: 0.4; /* Opacidade de 40% */
+    border-radius: 50%;
+}
+
+#search-input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#pokemon-image {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Ajuste conforme necessário */
+    height: 150px; /* Ajuste conforme necessário */
+}
+
+#pokemon-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pokemon-name {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#pokemon-number {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+#pokemon-type {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#previous-btn,
+#next-btn,
+#search-btn {
+    background-color: #fff;
+    border: none;
+    color: #f7a69b; /* Vermelho claro */
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#previous-btn:hover,
+#next-btn:hover,
+#search-btn:hover {
+    background-color: #ddd;
+}
